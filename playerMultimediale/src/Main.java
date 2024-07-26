@@ -73,5 +73,6 @@ public class Main {
         Immagine immagine = new Immagine("Immagine bella",lumImmagine);
         immagine.show();
 
+
     }
 }

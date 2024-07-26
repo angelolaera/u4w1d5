@@ -1,3 +1,4 @@
+import entities.Immagine;
 import entities.RegistrazioneAudio;
 import entities.Video;
 
@@ -65,6 +66,12 @@ public class Main {
                 video.play();
                 break;
         }
+
+        System.out.println("Inserire il livello di luminosità per l'immagine: ");
+        int lumImmagine = Integer.parseInt(scanner.nextLine());
+
+        Immagine immagine = new Immagine("Immagine bella",lumImmagine);
+        immagine.show();
 
     }
 }
